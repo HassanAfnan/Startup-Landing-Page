@@ -1,0 +1,54 @@
+
+body,html
+{
+	width: 100%;
+	height: 100%;
+}
+.startup
+{
+	background-image: url("header.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 100%
+}
+.btn
+{
+	border-radius: 300px; /*it turns shape of button*/
+	text-transform: uppercase;
+	font-weight: 700;
+	font-style: sans-serif;
+}
+.btn-xl
+{
+	padding: 1rem 2rem;
+}
+.btn-primary
+{
+	background-color: #F05F44;
+	border-color: #F05F44;
+}
+.btn-primary:hover
+{
+	background-color: #ee4b08;
+	border-color: #ee4b08; 
+    border-width: 5px; 
+}
+hr
+{
+	border-color: #ee4b08;
+	border-width: 3px; /*increaser thickness of line*/
+	max-width: 65px; /*increaser width of line to its max*/
+}
+.faded
+{
+	color: rgba(255, 255, 255, 0.8); 
+}
+.startup hr
+{
+	margin-bottom: 30px;
+	margin-top: 200px;
+}
+.startup h1
+{
+	font-size: 2em;
+}
